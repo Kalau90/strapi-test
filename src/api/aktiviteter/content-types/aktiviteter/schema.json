@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aktiviteters",
+  "info": {
+    "singularName": "aktiviteter",
+    "pluralName": "aktiviteters",
+    "displayName": "Aktiviteter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "unique": true
+    },
+    "Tagline": {
+      "type": "string",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
